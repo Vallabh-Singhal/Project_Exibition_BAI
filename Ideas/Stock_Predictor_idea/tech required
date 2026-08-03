@@ -1,0 +1,46 @@
+Tech Stack
+1. Programming Language:Python (Core AI/ML development)
+2. Machine Learning & AI:
+-Scikit-learn – Customer churn prediction (Logistic -Regression, Decision Tree, Random Forest), customer segmentation (K-Means), and model evaluation.
+-SHAP (Optional but recommended) – Explainable AI to show why a customer is predicted to churn.
+-NLTK (Optional) – Basic sentiment analysis of customer reviews or feedback.
+3. Data Processing
+Pandas – Data cleaning and manipulation
+NumPy – Numerical computations
+OpenPyXL / CSV – Reading datasets
+4. Data Visualization
+Matplotlib
+Plotly (Interactive charts)
+Power BI (optional for business dashboards)
+5. Backend: FastAPI (Faster and more scalable)
+-Responsibilities:
+Load trained model
+Handle API requests
+Return predictions
+Connect frontend with ML model
+6. Frontend
+--Streamlit
+Features:
+Upload customer data
+Predict churn
+View dashboards
+Display recommendations
+--Option 2 (For a More Professional Web App)
+React.js
+HTML
+CSS
+JavaScript
+Bootstrap or Tailwind CSS
+
+7. Database
+MySQL or PostgreSQL (Store customer information and prediction history)
+
+8. APIs (Optional)
+Email API (for automated retention emails)
+SMS API (for alerts)
+CRM API integration (future enhancement)
+9. Deployment
+Git & GitHub – Version control
+Render or Railway – Backend deployment
+Streamlit Community Cloud – Deploy Streamlit app
+Docker (optional for containerization)
